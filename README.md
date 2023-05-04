@@ -30,7 +30,7 @@ Em seguida, é interessante criar uma lista de id 0, abrir um novo terminal e ex
 go run remote_rpc_client.go
 ```
 
-Desta forma, será possível observar que os clientes pode acessar as mesmas listas sem que haja inconsistência nos dados.
+Desta forma, será possível observar que os clientes podem acessar as mesmas listas sem que haja inconsistência nos dados.
 
 As listas são sempre armazenadas na pasta listas e elas são carregadas sempre que o comando de criação de lista é executado. Também se verifica a existência de uma lista tanto em memória como em disco, antes da execução de todas as operações. Desta forma, é garantida a consistência e confiabilidade dos dados entre todos os clientes.
 
